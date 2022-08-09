@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.mama{
+   background-color:whitesmoke;
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid black;
+    position: fixed;
+}
+.Dan{
+    color: rgb(31,223,31);
+    margin-left: 60px;
+    font-size: 30px;
+}
+.maa{
+    margin-top: 50px;
+    border-left: 3px solid #16a34a;
+}
+.maa p{
+    background-color: #C6f6A8;
+    color: green;
+    padding: 11px;
+    margin-top: -13px;
+}
+.ma button {
+    color: green;
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+
+    
+}
+.ma :hover{
+    background-color: green;
+    color: white;
+    border-style: none;
+}
+
+.maaa {
+    background-color:white;
+    width: 220px;
+    height: 90px;
+    margin-left:20px ;
+    border-radius: 10px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.maaa img{
+    width: 40px;
+    height: 40px;
+    border-radius:100px;
+}
+.maaa p{
+    margin-right: 30px;
+}
+.robby{
+    width: 80%;
+    margin-left: 20%;
+    
+}
+.rob{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rob p{
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    
+}
+.rob input{
+padding: 5px;
+width: 300px;
+height: 25px;
+margin-top: 10px;
+}
+.roy{
+    margin-left: 20px;
+    height: 300px;
+    width: 280px;
+    background-color: rgba(249, 251, 184, 0.951);
+
+
+}
+.roy p{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.roy image img{
+    position: relative;
+    object-fit: contain;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5vh;
+    width: 28%;
+    gap: 2%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1%;
+
+}
+
+.input input{
+    background: none;
+    border: none;
+    font-size: 1.1em;
+}
+
+.input input:focus{
+    outline: none;
+    width: 90%;
+}
+.rooy{
+
+    height: 300px;
+    width: 280px;
+    margin-left:20px;
+}
+.rooy p{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.ro {
+    background-color:rgb(248, 209, 125);
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+    .ro button{
+        width: 200px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+
+    }
+    .code{
+        display: flex;
+        align-items: center;
+    } 
+        
+  
+    .nana{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nana h1{
+        font-style: bold;
+        margin-left: 10px;
+    }
+    .nana button{
+       
+        color: #16a34a;
+        border-style: none;
+        margin-right: 10px;
+
+    }
+    
+    .nana button:hover{
+        background-color: #16a34a;
+        color: white;
+        border-style: none;
+    }
+    .plus{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10px;
+        margin-right: 10px;
+
+    }
+    .plus button{
+        background-color: #c6f6a8;
+        color: white;
+        border-radius: 100px;
+        width: 60px;
+        height: 60px;
+        border-style: none;
+        font-size: 30px;
+        position: fixed;
+        right: 3%;
+        bottom: 3%;
+    }
+    .plus button:hover{
+        background-color: rgb(31,223,31);
+        color: white;
+        border-style: none;
+    }
+    .ad{
+        background-color: white;
+        color: black;
+        border-style: none;
+        margin-right:300px ;
+        position: relative;
+        top: 2%;
+        right: 1%;
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        height: 30px;
+        background-color:white;
+        align-items: center;
+        
+     
+    }
+    .add{
+        background-color: #8cc46a;
+        color: black;
+        border-style: none;
+    }
+    .edit{
+        display: flex;
+        flex-direction: row;
+    }
+    .edit button:hover{
+        background-color: #16a34a;
+        color: white;
+        border-style: none;
+    }
+    .image img{
+       width: 100%;
+    }
+    .image{
+        position: relative;
+        object-fit: contain;
+        width: 100%
+    }
+    .images {
+       position: absolute;
+       top: 2%;
+       right: 1%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       background-color: #333;
+       border-style: none;
+       
+    }
+    .images i{
+        color: white;
+    }
+    .image :hover{
+        background-color: #16a34a;
+        color: white;
+        border-style: none;
+    }
+    
+    .code{
+        margin-left: 10px;
+    
+    }
+    .roob{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        position: relative;
+        row-gap: 10%;
+        margin-top: 15%;
+       z-index: -999;
+        width: 100%;
+        
+    
+    }
+    .fixed{
+        position: fixed;
+        width: 80%;
+        background-color: #f2f2f2;
+    }
+    @media(max-width:992px){
+        .maaa{
+            width: 100px;
+        }
+    }
+    
+    
